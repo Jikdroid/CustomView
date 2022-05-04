@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="customViewData">
+        <attr name="itemTitleText" format="reference|string" />
+        <attr name="itemContentText" format="reference|string" />
+        <attr name="itemTitleTextColor" format="reference|color" />
+        <attr name="itemContentTextColor" format="reference|color" />
+    </declare-styleable>
+</resources>
