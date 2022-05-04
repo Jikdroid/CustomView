@@ -15,11 +15,11 @@ constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr:Int = 0)
         // Load attributes
         val a = context.obtainStyledAttributes(attrs,R.styleable.MyViewStyleable)
         // customText로 정의한 문자열 혹은 Default 문자열
-        val customText = a.getString(R.styleable.MyViewStyleable_android_text) ?: "Default"
+        val customText = a.getString(R.styleable.MyViewStyleable_text) ?: "Default"
         // customTextColor로 정의한 색상 혹은 #FF1DE9B6 컬러
-        val customTextColor = a.getColor(R.styleable.MyViewStyleable_android_textColor, 0xFFFFFFFF.toInt())
+        val customTextColor = a.getColor(R.styleable.MyViewStyleable_textColor, 0xFF1DE9B6.toInt())
         // customTextColor로 정의한 색상 혹은 #FFFF0000 컬러
-        val customTextColorHint = a.getColor(R.styleable.MyViewStyleable_android_textColorHint, 0xFFFFFFFF.toInt())
+        val customTextColorHint = a.getColor(R.styleable.MyViewStyleable_textColorHint, 0xFFFF0000.toInt())
         a.recycle()
 
 

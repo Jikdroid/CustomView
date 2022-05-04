@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="MyViewStyleable">
-        <attr name="android:text" />
-        <attr name="android:textColor" />
-        <attr name="android:textColorHint" />
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textColorHint" format="color" />
     </declare-styleable>
 </resources>
