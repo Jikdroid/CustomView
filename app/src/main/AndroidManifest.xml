@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CustomView">
         <activity
-            android:name=".CustomViewActivity"
+            android:name=".TestActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,12 +19,16 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".CustomViewActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".ViewStubActivity"
             android:exported="false" />
         <activity
             android:name=".ReUsingLayoutActivity"
             android:exported="true">
-
         </activity>
         <activity
             android:name=".MainActivity"
